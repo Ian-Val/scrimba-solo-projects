@@ -6,7 +6,7 @@ export default function ProjectLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <>
       <header className="p-6 bg-neutral-900 ">
         <nav>
           <Link
@@ -17,7 +17,7 @@ export default function ProjectLayout({
           </Link>
         </nav>
       </header>
-      <body>{children}</body>
-    </html>
+      {children}
+    </>
   );
 }
