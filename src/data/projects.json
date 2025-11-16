@@ -1,0 +1,54 @@
+[
+  {
+    "displayName": "Hometown Homepage",
+    "slug": "hometown-homepage"
+  },
+  {
+    "displayName": "Unit Converter",
+    "slug": "unit-converter"
+  },
+  {
+    "displayName": "Instagram Clone",
+    "slug": "instagram-clone"
+  },
+  {
+    "displayName": "Restaurant Ordering App",
+    "slug": "restaurant-ordering-app"
+  },
+  {
+    "displayName": "Learning Journal",
+    "slug": "learning-journal"
+  },
+  {
+    "displayName": "Color Scheme Generator",
+    "slug": "color-scheme-generator"
+  },
+  {
+    "displayName": "Movie Watchlist",
+    "slug": "movie-watchlist"
+  },
+  {
+    "displayName": "Translation App",
+    "slug": "translation-app"
+  },
+  {
+    "displayName": "Gold Digger App",
+    "slug": "gold-digger-app"
+  },
+  {
+    "displayName": "Quiz App",
+    "slug": "quiz-app"
+  },
+  {
+    "displayName": "Component Library++",
+    "slug": "component-library-plus-plus"
+  },
+  {
+    "displayName": "Typed Tenzies",
+    "slug": "typed-tenzies"
+  },
+  {
+    "displayName": "Fix a Local Website",
+    "slug": "fix-a-local-website"
+  }
+]
