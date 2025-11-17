@@ -6,7 +6,7 @@ export default function HomeTownHomePage() {
     <main>
       <section
         aria-labelledby="hero-title"
-        className="w-full h-64 bg-[url(/images/hero-banner.webp)] bg-cover bg-center flex flex-col justify-center items-center gap-2"
+        className="w-full h-64 bg-[url(/images/hometown/hero-banner.webp)] bg-cover bg-center flex flex-col justify-center items-center gap-2"
       >
         <h1
           id="hero-title"
@@ -36,7 +36,7 @@ export default function HomeTownHomePage() {
               href="https://www.google.com/maps/dir/41.268993,-72.9335036/Charlotte+Bacon's+Playground,+1083+Ocean+Ave+%231075,+West+Haven,+CT+06516/@41.2597648,-72.9624757,8063m/data=!3m1!1e3!4m10!4m9!1m1!4e1!1m5!1m1!1s0x89e8764780c3645f:0xb196d208adf428e0!2m2!1d-72.9603762!2d41.2527455!3e2?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D"
             >
               <Image
-                src="/images/beach.webp"
+                src="/images/hometown/beach.webp"
                 alt="Aerial view of the shoreline."
                 width={400}
                 height={410}
@@ -58,7 +58,7 @@ export default function HomeTownHomePage() {
               href="https://us.pez.com/pages/hours-and-location"
             >
               <Image
-                src="/images/pez.webp"
+                src="/images/hometown/pez.webp"
                 alt="Interior of the PEZ Visitor Center."
                 width={1800}
                 height={1200}
@@ -80,7 +80,7 @@ export default function HomeTownHomePage() {
               href="https://www.urbanair.com/connecticut-orange/?utm_source=gmb&utm_medium=website"
             >
               <Image
-                src="/images/urban-air.webp"
+                src="/images/hometown/urban-air.webp"
                 alt="Interior of Urban Air Trampoline and Adventure Park."
                 width={800}
                 height={500}
@@ -101,7 +101,7 @@ export default function HomeTownHomePage() {
       <section aria-labelledby="guide-title">
         <figure className="bg-sky-700 grid items-center grid-cols-2 p-8 gap-x-8  text-lime-200 md:w-150 md:mx-auto md:my-8 md:rounded-2xl">
           <Image
-            src="/images/ian-valeta.webp"
+            src="/images/hometown/ian-valeta.webp"
             alt=""
             width={800}
             height={800}
