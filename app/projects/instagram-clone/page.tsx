@@ -6,7 +6,11 @@ export default function InstagramClonePage() {
   return (
     <>
       <NavBar />
-      <main></main>
+      <main>
+        {posts.map((post) => (
+          <Post key={post.post} postData={post} />
+        ))}
+      </main>
     </>
   );
 }
