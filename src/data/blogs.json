@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "image": "/images/journal/blog-preview-01.png",
+    "date": "11-14-2025",
+    "title": "Breaking the Build to Build Myself",
+    "text": "A simple refactor spiraled into a full-on system collapse. Instead of panicking, I wrote everything on a whiteboard and rebuilt the structure cleanly. The rebuild taught me more than the original code ever did."
+  },
+  {
+    "id": 2,
+    "image": "/images/journal/blog-preview-02.png",
+    "date": "11-15-2025",
+    "title": "The Day TypeScript Finally Clicked",
+    "text": "I stopped treating TypeScript like an annoying hall monitor and started treating it like a guardrail. My app feels sturdier, and I'm shipping faster than when I used plain JavaScript."
+  },
+  {
+    "id": 3,
+    "image": "/images/journal/blog-preview-03.png",
+    "date": "11-16-2025",
+    "title": "Interfaces, Espresso, and Epiphanies",
+    "text": "While caffeinating aggressively, I realized interfaces aren't just rules—they're contracts that keep my app honest. It made organizing my modules feel intentional instead of chaotic."
+  },
+  {
+    "id": 4,
+    "image": "/images/journal/blog-preview-04.png",
+    "date": "11-17-2025",
+    "title": "When the UI Finally Matched the Vision",
+    "text": "After dozens of tiny adjustments, the layout snapped into place. No big breakthrough, just persistent iteration. Seeing the design feel 'right' for the first time was worth every tweak."
+  },
+  {
+    "id": 5,
+    "image": "/images/journal/blog-preview-05.png",
+    "date": "11-18-2025",
+    "title": "A Lesson Hidden in a Failing API Call",
+    "text": "An external API went down and broke my workflow. Annoying, yes—but it pushed me to build proper fallback logic. Now the app feels resilient instead of fragile."
+  },
+  {
+    "id": 6,
+    "image": "/images/journal/blog-preview-06.png",
+    "date": "11-19-2025",
+    "title": "Momentum Is a Feature Too",
+    "text": "I didn't code anything groundbreaking today, but I showed up, committed small changes, and kept the streak alive. Consistency is quietly turning into my most valuable skill."
+  },
+  {
+    "id": 7,
+    "image": "/images/journal/blog-preview-01.png",
+    "date": "11-20-2025",
+    "title": "Refactoring the Chaos",
+    "text": "I opened my project expecting to add one feature and instead rewrote half the codebase. What started as a cleanup turned into a lesson in reducing cognitive load. Simpler code really does breathe easier."
+  },
+  {
+    "id": 8,
+    "image": "/images/journal/blog-preview-01.png",
+    "date": "11-21-2025",
+    "title": "Unexpected Wisdom from a Console Log",
+    "text": "A stray console log revealed a data flow issue I had overlooked for weeks. It reminded me that even the simplest tools can expose the deepest problems when I’m actually paying attention."
+  },
+  {
+    "id": 9,
+    "image": "/images/journal/blog-preview-01.png",
+    "date": "11-22-2025",
+    "title": "Designing Without Overthinking",
+    "text": "I forced myself to sketch UI ideas quickly instead of hunting for perfection. The rough drafts were messy, but they unlocked layouts I never would’ve discovered by polishing too soon."
+  },
+  {
+    "id": 10,
+    "image": "/images/journal/blog-preview-01.png",
+    "date": "11-23-2025",
+    "title": "A Breakthrough in State Management",
+    "text": "I finally grasped the flow of state through my components. What felt like juggling before now feels more like conducting. Small tweaks in the data layer made the entire interface feel smoother."
+  },
+  {
+    "id": 11,
+    "image": "/images/journal/blog-preview-01.png",
+    "date": "11-24-2025",
+    "title": "Learning to Trust the Process",
+    "text": "I didn't ship anything big today, but I documented my components, organized folders, and tightened loose ends. The project feels more maintainable, and my future self will be grateful."
+  },
+  {
+    "id": 12,
+    "image": "/images/journal/blog-preview-01.png",
+    "date": "11-25-2025",
+    "title": "The Build That Surprised Me",
+    "text": "I pushed a new version expecting errors, but everything ran flawlessly. It reminded me that progress compounds quietly—weeks of steady work suddenly show up all at once."
+  }
+]
