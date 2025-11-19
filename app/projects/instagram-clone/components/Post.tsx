@@ -4,7 +4,7 @@ import { JSX } from "react";
 
 export default function Post({ postData }: { postData: PostType }) {
   return (
-    <article>
+    <article className="w-fit mx-auto">
       <header className="flex justify-start items-center p-4">
         <Image
           src={postData.avatar}

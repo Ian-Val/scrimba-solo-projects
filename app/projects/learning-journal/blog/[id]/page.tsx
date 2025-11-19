@@ -20,7 +20,7 @@ export default async function BlogPage({ params }: { params: { id: string } }) {
         <h2 className="font-bold text-4xl mb-4">{blog.title}</h2>
         <p className="leading-relaxed tracking-wider mb-8">{blog.text}</p>
         <Image
-          className="aspect-[5/3] object-cover w-full"
+          className="aspect-5/3 object-cover w-full"
           src={blog.image}
           alt=""
           width={300}
