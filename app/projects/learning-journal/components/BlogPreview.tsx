@@ -20,7 +20,10 @@ export default function BlogPreview({ blog }: { blog: Blog }) {
           year: "numeric",
         })}
       </p>
-      <Link href={`blog/${blog.id}`} className="font-bold text-lg">
+      <Link
+        href={`/projects/learning-journal/blog/${blog.id}`}
+        className="font-bold text-lg"
+      >
         {blog.title}
       </Link>
       <p className="text-sm text-neutral-600">{blog.text}</p>

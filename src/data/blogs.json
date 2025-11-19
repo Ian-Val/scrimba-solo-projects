@@ -4,83 +4,95 @@
     "image": "/images/journal/blog-preview-01.png",
     "date": "11-14-2025",
     "title": "Breaking the Build to Build Myself",
-    "text": "A simple refactor spiraled into a full-on system collapse. Instead of panicking, I wrote everything on a whiteboard and rebuilt the structure cleanly. The rebuild taught me more than the original code ever did."
+    "text": "A simple refactor spiraled into a full-on system collapse. Instead of panicking, I wrote everything on a whiteboard and rebuilt the structure cleanly. The rebuild taught me more than the original code ever did.",
+    "body": "Today reminded me that breaking things isn’t a setback—it’s an audit. When the refactor collapsed the entire system, the frustration was real, but the opportunity was bigger. Rewriting the architecture from a clean slate exposed assumptions I didn’t know I was making. The whiteboard became my debugger, my blueprint, and my compass. By the time the system was stable again, I understood my own code more deeply than when I first wrote it."
   },
   {
     "id": 2,
     "image": "/images/journal/blog-preview-02.png",
     "date": "11-15-2025",
     "title": "The Day TypeScript Finally Clicked",
-    "text": "I stopped treating TypeScript like an annoying hall monitor and started treating it like a guardrail. My app feels sturdier, and I'm shipping faster than when I used plain JavaScript."
+    "text": "I stopped treating TypeScript like an annoying hall monitor and started treating it like a guardrail. My app feels sturdier, and I'm shipping faster than when I used plain JavaScript.",
+    "body": "For weeks TypeScript felt like an obstacle—a layer of rules slowing down the creative flow. But today the purpose finally landed. Instead of fighting the compiler, I let it guide me. Errors became early warnings, not roadblocks. Once the mental shift happened, the codebase grew sturdier and more predictable. Ironically, the structure I resisted ended up unlocking speed. TypeScript wasn’t friction; it was traction."
   },
   {
     "id": 3,
     "image": "/images/journal/blog-preview-03.png",
     "date": "11-16-2025",
     "title": "Interfaces, Espresso, and Epiphanies",
-    "text": "While caffeinating aggressively, I realized interfaces aren't just rules—they're contracts that keep my app honest. It made organizing my modules feel intentional instead of chaotic."
+    "text": "While caffeinating aggressively, I realized interfaces aren't just rules—they're contracts that keep my app honest. It made organizing my modules feel intentional instead of chaotic.",
+    "body": "A double shot of espresso and a messy folder structure led to an unexpected insight: interfaces aren’t bureaucratic paperwork—they’re agreements. They force clarity between modules, making each piece of the system responsible for its own behavior. As soon as I embraced that framing, the architecture began to feel intentional. The chaos quieted, and the project gained a sense of internal integrity. Good interfaces don’t limit creativity; they prevent accidental complexity."
   },
   {
     "id": 4,
     "image": "/images/journal/blog-preview-04.png",
     "date": "11-17-2025",
     "title": "When the UI Finally Matched the Vision",
-    "text": "After dozens of tiny adjustments, the layout snapped into place. No big breakthrough, just persistent iteration. Seeing the design feel 'right' for the first time was worth every tweak."
+    "text": "After dozens of tiny adjustments, the layout snapped into place. No big breakthrough, just persistent iteration. Seeing the design feel 'right' for the first time was worth every tweak.",
+    "body": "The UI didn’t improve through one grand redesign; it evolved through countless small calibrations. Each adjustment solved one issue but exposed another. Progress was slow enough to doubt at times. But today the pieces aligned. The layout carried the weight and mood I had imagined months ago. It reinforced something I keep learning: the moment when the design clicks is rarely glamorous. It’s the quiet reward for consistent refinement."
   },
   {
     "id": 5,
     "image": "/images/journal/blog-preview-05.png",
     "date": "11-18-2025",
     "title": "A Lesson Hidden in a Failing API Call",
-    "text": "An external API went down and broke my workflow. Annoying, yes—but it pushed me to build proper fallback logic. Now the app feels resilient instead of fragile."
+    "text": "An external API went down and broke my workflow. Annoying, yes—but it pushed me to build proper fallback logic. Now the app feels resilient instead of fragile.",
+    "body": "The API outage was an unplanned stress test. It forced me to confront a weakness in my system I had been ignoring: the assumption that external services will always behave. Building fallback logic meant thinking through worst-case scenarios and designing graceful exits. Once implemented, the entire application felt sturdier. The failure wasn’t pleasant, but it gave me resilience I wouldn’t have built otherwise."
   },
   {
     "id": 6,
     "image": "/images/journal/blog-preview-06.png",
     "date": "11-19-2025",
     "title": "Momentum Is a Feature Too",
-    "text": "I didn't code anything groundbreaking today, but I showed up, committed small changes, and kept the streak alive. Consistency is quietly turning into my most valuable skill."
+    "text": "I didn't code anything groundbreaking today, but I showed up, committed small changes, and kept the streak alive. Consistency is quietly turning into my most valuable skill.",
+    "body": "Today wasn’t about breakthroughs. It was repetition—small commits, minor fixes, tidying up edges. But the act of showing up matters. Momentum compounds just like code. Even on days when progress feels invisible, the habit strengthens. Over time, that consistency becomes a feature in itself, one that guarantees steady improvement without bursts of burnout. Not every day needs to be productive in a glamorous way. Some days just need to keep the story moving."
   },
   {
     "id": 7,
     "image": "/images/journal/blog-preview-01.png",
     "date": "11-20-2025",
     "title": "Refactoring the Chaos",
-    "text": "I opened my project expecting to add one feature and instead rewrote half the codebase. What started as a cleanup turned into a lesson in reducing cognitive load. Simpler code really does breathe easier."
+    "text": "I opened my project expecting to add one feature and instead rewrote half the codebase. What started as a cleanup turned into a lesson in reducing cognitive load. Simpler code really does breathe easier.",
+    "body": "What was supposed to be a small update became a full-scale reorganization. The deeper I went, the more tangled the logic became. Refactoring wasn’t just about improving performance—it was about reducing the mental tax of navigating complexity. Once the structure was simplified, I could move faster and think clearer. The lesson was undeniable: complexity sneaks in quietly, but simplicity has to be built deliberately."
   },
   {
     "id": 8,
     "image": "/images/journal/blog-preview-01.png",
     "date": "11-21-2025",
     "title": "Unexpected Wisdom from a Console Log",
-    "text": "A stray console log revealed a data flow issue I had overlooked for weeks. It reminded me that even the simplest tools can expose the deepest problems when I’m actually paying attention."
+    "text": "A stray console log revealed a data flow issue I had overlooked for weeks. It reminded me that even the simplest tools can expose the deepest problems when I’m actually paying attention.",
+    "body": "It’s ironic that a tiny console log—a leftover debugging note—surfaced a significant flaw in my data pipeline. The issue had been hidden behind layers of assumptions, but the console output made the problem visible. It reminded me not to underestimate basic tools. Often the simplest visibility reveals the most complicated issues. It’s not always about new frameworks or advanced debugging; sometimes it’s about noticing what’s right in front of you."
   },
   {
     "id": 9,
     "image": "/images/journal/blog-preview-01.png",
     "date": "11-22-2025",
     "title": "Designing Without Overthinking",
-    "text": "I forced myself to sketch UI ideas quickly instead of hunting for perfection. The rough drafts were messy, but they unlocked layouts I never would’ve discovered by polishing too soon."
+    "text": "I forced myself to sketch UI ideas quickly instead of hunting for perfection. The rough drafts were messy, but they unlocked layouts I never would’ve discovered by polishing too soon.",
+    "body": "Rapid sketching broke the perfectionism loop today. By drawing quickly and embracing rough edges, I generated more ideas in minutes than in hours of pixel-perfect tinkering. The messy drafts freed me to explore shapes, flows, and hierarchies without committing prematurely. The best layout emerged from this loose process, not from meticulous refinement. Creativity often lives in the unpolished phases, not the finished ones."
   },
   {
     "id": 10,
     "image": "/images/journal/blog-preview-01.png",
     "date": "11-23-2025",
     "title": "A Breakthrough in State Management",
-    "text": "I finally grasped the flow of state through my components. What felt like juggling before now feels more like conducting. Small tweaks in the data layer made the entire interface feel smoother."
+    "text": "I finally grasped the flow of state through my components. What felt like juggling before now feels more like conducting. Small tweaks in the data layer made the entire interface feel smoother.",
+    "body": "State has been the invisible weight of my project for weeks. Understanding its movement through components felt like trying to track water through pipes. Today the mental model clicked. By refining the data layer and reducing unnecessary complexity, the UI began to behave predictably. The app felt coordinated instead of chaotic. Mastering state wasn’t about clever patterns—it was about clarity. Once I had that, everything else aligned."
   },
   {
     "id": 11,
     "image": "/images/journal/blog-preview-01.png",
     "date": "11-24-2025",
     "title": "Learning to Trust the Process",
-    "text": "I didn't ship anything big today, but I documented my components, organized folders, and tightened loose ends. The project feels more maintainable, and my future self will be grateful."
+    "text": "I didn't ship anything big today, but I documented my components, organized folders, and tightened loose ends. The project feels more maintainable, and my future self will be grateful.",
+    "body": "Maintenance days rarely feel impressive, but today they felt necessary. Documenting components clarified their roles, and reorganizing folders removed friction I had grown numb to. These structural improvements don’t create flashy features, but they create leverage. Good organization pays dividends every time I return to the code. Progress isn’t always measured in commits—sometimes it’s measured in how much smoother the next session becomes."
   },
   {
     "id": 12,
     "image": "/images/journal/blog-preview-01.png",
     "date": "11-25-2025",
     "title": "The Build That Surprised Me",
-    "text": "I pushed a new version expecting errors, but everything ran flawlessly. It reminded me that progress compounds quietly—weeks of steady work suddenly show up all at once."
+    "text": "I pushed a new version expecting errors, but everything ran flawlessly. It reminded me that progress compounds quietly—weeks of steady work suddenly show up all at once.",
+    "body": "I prepared for the usual cascade of problems when pushing a fresh build, but the tests passed cleanly and the app ran without hesitation. It felt like the project finally acknowledged the quiet hours of incremental work I’ve been putting in. Progress often hides itself until the moment it doesn’t. Today’s smooth build was proof that small, consistent improvements eventually surface in big, reassuring ways."
   }
 ]
