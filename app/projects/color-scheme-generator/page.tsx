@@ -6,14 +6,25 @@ import { nanoid } from "nanoid";
 
 import tailwindColors from "@/src/data/tailwind-colors.json";
 
-function colorDistance(
-  c1: { r: number; g: number; b: number },
-  c2: { r: number; g: number; b: number }
-) {
-  const rDist = Math.abs(c1.r - c2.r);
-  const gDist = Math.abs(c1.g - c2.g);
-  const bDist = Math.abs(c1.b - c2.b);
-  return rDist + gDist + bDist;
+type Color = {
+  r: number;
+  g: number;
+  b: number;
+};
+
+function colorDistance(c1: Color, c2: Color) {
+  const r = (c1.r - c2.r) * 0.299;
+  const g = (c1.g - c2.g) * 0.587;
+  const b = (c1.b - c2.b) * 0.114;
+  return Math.sqrt(r * r + g * g + b * b);
+}
+
+function returnClosestMatch(c1: Color) {
+  const tailwindColorArr = [...tailwindColors].sort(
+    (a: { color: string; code: Color }, b: { color: string; code: Color }) =>
+      colorDistance(a.code, c1) - colorDistance(b.code, c1)
+  );
+  return tailwindColorArr[0];
 }
 
 export default function ColorSchemeGeneratorPage() {
@@ -32,17 +43,16 @@ export default function ColorSchemeGeneratorPage() {
         )}&mode=${inputMode}`
       );
       const data = await res.json();
-      console.log(data);
       setColors(
-        data.colors.map(
-          (colorData: { rgb: { r: number; g: number; b: number } }) => {
-            return {
-              r: colorData.rgb.r,
-              g: colorData.rgb.g,
-              b: colorData.rgb.b,
-            };
-          }
-        )
+        data.colors.map((colorData: { rgb: Color }) => {
+          const { code, color } = returnClosestMatch(colorData.rgb);
+          return {
+            r: code.r,
+            g: code.g,
+            b: code.b,
+            colorName: color,
+          };
+        })
       );
     } catch (e) {
       console.error(e);
@@ -82,17 +92,24 @@ export default function ColorSchemeGeneratorPage() {
         </form>
       </header>
       <main className="flex justify-between w-full h-140">
-        {colors.map((color: { r: number; g: number; b: number }) => {
-          return (
-            <div
-              key={nanoid()}
-              style={{
-                backgroundColor: `rgb(${color.r},${color.g},${color.b})`,
-              }}
-              className="h-full w-full"
-            ></div>
-          );
-        })}
+        {colors.map(
+          (color: { r: number; g: number; b: number; colorName: string }) => {
+            return (
+              <div className="flex flex-col w-full">
+                <div
+                  key={nanoid()}
+                  style={{
+                    backgroundColor: `rgb(${color.r},${color.g},${color.b})`,
+                  }}
+                  className="h-full w-full flex"
+                ></div>
+                <div className="w-full text-center mt-4 text-md font-bold">
+                  {color.colorName}
+                </div>
+              </div>
+            );
+          }
+        )}
       </main>
     </>
   );
