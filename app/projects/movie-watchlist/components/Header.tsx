@@ -25,9 +25,12 @@ export default function HeaderWrapper() {
   const linkText = titleLUT[href as KnownPaths];
 
   return (
-    <header className="bg-[url(/images/movies/hero-banner.png)] bg-cover bg-center bg-black/80 bg-blend-multiply text-white p-10 flex justify-between items-center">
+    <header className="bg-[url(/images/movies/hero-banner.png)] bg-cover bg-center bg-fixed bg-black/85 bg-blend-multiply text-white p-10 flex justify-between items-center min-h-60">
       <h1 className="font-bold text-5xl tracking-wide">{title}</h1>
-      <Link className="font-semibold text-lg" href={href}>
+      <Link
+        className="active:text-amber-400 hover:text-amber-100 font-semibold text-lg"
+        href={href}
+      >
         {linkText}
       </Link>
     </header>
