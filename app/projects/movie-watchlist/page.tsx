@@ -9,16 +9,19 @@ export default async function HomePage({
 }) {
   const query = (await searchParams).q || "";
 
-  const res = await fetch(
-    `http://www.omdbapi.com/?i=tt3896198&apikey=f397039a&s=${query}&type=movie&plot-short`
-  );
-
-  const data = await res.json();
-
   let searchData: Movie[] = [];
+  try {
+    const res = await fetch(
+      `http://www.omdbapi.com/?i=tt3896198&apikey=f397039a&s=${query}&type=movie&plot-short`
+    );
 
-  if (data.Search) {
-    searchData = data.Search;
+    const data = await res.json();
+
+    if (data.Search) {
+      searchData = data.Search;
+    }
+  } catch (error) {
+    console.error(error);
   }
 
   return (
