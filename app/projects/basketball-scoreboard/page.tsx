@@ -36,13 +36,20 @@ export default function ScoreboardPage() {
       (prevScore): Score => ({
         home: team === "home" ? prevScore.home + amount : prevScore.home,
         guest: team === "guest" ? prevScore.guest + amount : prevScore.guest,
-      })
+      }),
     );
   }
 
   return (
     <main className="bg-blue-950 min-h-screen p-10">
       <h1 className="sr-only">Basketball Scoreboard</h1>
+      <a
+        href="mailto:recipient@example.com?
+subject=Check%20this%20image&
+body=<img%20src=%22https://cdn.pixabay.com/photo/2024/08/26/23/39/maranhao-sheets-9000416_1280.jpg%22%20alt=%22Image%22%20style=%22max-width:100%25;%22%20/%3E%0D%0A%0D%0AHello,%0D%0A%0D%0APlease%20see%20the%20image%20above."
+      >
+        Send Email with HTML Image
+      </a>
       <section className="grid grid-cols-2 gap-15">
         <div className="flex flex-col items-center gap-3">
           <h2 className="uppercase font-bold text-neutral-50 text-3xl">home</h2>
